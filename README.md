@@ -18,27 +18,25 @@ Rooting Nokia devices presents unique challenges due to several factors:
 5. Copy boot.img to the device
 6. Patch the copied img file using magisk
 7. Copy the patched img file file to PC
+8. Follow one of the following two methods to flash the patched img file
 
 #### Using SPF flash tool
 
-Download Smart Phone Flash (SPF) Tool for Linux (Tested v5.2208)
-Extract it and run ```flash_tool```
-Load the scatter files in SPF Tool
-Uncheck everything except the boot partition to be flashed
-Click on the path of the stock boot img and select the patched boot img file
-Click on the download button
-Connect device to PC via USB cable
-Wait for process to complete
+1. Download Smart Phone Flash (SPF) Tool for Linux (Tested v5.2208)
+2. Extract it and run ```flash_tool```
+3. Load the scatter files in SPF Tool
+4. Uncheck everything except the boot partition to be flashed
+5. Click on the path of the stock boot img and select the patched boot img file
+6. Click on the download button
+7. Connect device to PC via USB cable
+8. Wait for process to complete
 
 #### Using fastboot
-Note: This method might factory reset the device. Re-install Magisk on boot and grant root access when prompted
-Run the following commands
-```
-adb reboot-bootloader
-fastboot devices
-Unlock bootloader: fastboot oem key <insert md5 hash of serial number>
-fastboot flash boot <path to patched img>
-```
+Note: This method might factory reset the device. Re-install Magisk on boot and grant root access when prompted.
+1. ```adb reboot-bootloader```
+2. ```fastboot devices```
+3. Unlock the bootloader: ```fastboot oem key <insert md5 hash of serial number>```
+4. Flash the patched image file: ```fastboot flash boot <path to patched img>```
 
 ## Contributing
 Contributions to this repository are welcome! Whether it's refining the existing guide, adding support for more Nokia models, or providing translations, your input is valuable.
