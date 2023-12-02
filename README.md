@@ -20,6 +20,10 @@ Rooting Nokia devices presents unique challenges due to several factors:
 7. Copy the patched img file file to PC
 8. Follow one of the following two methods to flash the patched img file
 
+Note: For Nokia 1 TA-1047, the above mentioned files can be found at the following links:
+- [Latest OTA update](https://pern-my.sharepoint.com/:u:/g/personal/mutahar_ali_lums_edu_pk/ETjIuqz3NkNPkcoeth3TPtIB-GKC3EkhEo9QKFUWhKiseQ?e=AcgTYA)
+- [Scatter files](https://pern-my.sharepoint.com/:u:/g/personal/mutahar_ali_lums_edu_pk/EWfvPxKDoWRAkLkhLbEYcZ4BZZi3yA-1EuoCa_GwRgW7TA?e=tKbByo)
+
 #### Using SPF flash tool
 
 1. Download Smart Phone Flash (SPF) Tool for Linux (Tested v5.2208)
